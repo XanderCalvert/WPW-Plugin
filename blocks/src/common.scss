@@ -1,0 +1,30 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+
+// @import 'bootstrap/scss/_functions';
+// @import 'bootstrap/scss/_variables';
+// @import 'bootstrap/scss/mixins/_breakpoints';
+
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+	
+body, td, textarea, input, select {
+    font-family: "Montserrat", sans-serif;
+}
+
+$primary: #009976;
+$secondary: #bc966c;
+
+.block-editor-block-list__block {
+    margin-left: 0;
+    margin-right: 0;
+}

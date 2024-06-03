@@ -1,0 +1,36 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "wpw/hero-block",
+	"title": "Hero Block",
+	"category": "wpw-core",
+	"textdomain": "mattcalvert",
+	"example": {},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+    "supports": {
+        "align": true,
+        "color": { 
+			"type": "object",
+			"background": true, 
+			"gradients": true 
+		}
+    },
+    "attributes": {
+
+        "vimeoURL": {
+            "type": "string",
+            "default": ""
+        },
+        "mediaURL": {
+            "type": "string",
+            "default": "null"
+        },
+        "mediaID": {
+            "type": "number",
+            "default": "null"
+        }
+
+    }
+
+}

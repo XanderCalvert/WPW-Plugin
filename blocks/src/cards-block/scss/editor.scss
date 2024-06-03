@@ -1,0 +1,21 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+$black: rgb(41, 41, 41);
+$white: #f4f4f4;
+$gray: #dedede;
+$green: #bada55;
+$red: orangered;
+
+.wp-block[data-type="wpw/cards-block-wrapper"] {
+    color: #0A1F43;
+    border: lightgray 2px solid;
+    border-radius: 8px;
+    margin: 0;
+    max-width: 100% !important;
+    padding: 2rem;
+    // border: dashed lightgray 2px;
+}

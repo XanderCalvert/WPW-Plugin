@@ -1,0 +1,23 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "wpw/cards-block-wrapper",
+	"title": "Cards Block Wrapper",
+	"category": "wpw-core",
+	"textdomain": "mattcalvert",
+	"example": {},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+    "supports": {
+        "align": true,
+        "color": { 
+			"type": "object",
+			"background": true, 
+			"gradients": true 
+		}
+    },
+    "attributes": {
+
+    }
+
+}

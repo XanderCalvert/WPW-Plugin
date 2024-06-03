@@ -1,0 +1,60 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+$black: rgb(41, 41, 41);
+$white: #f4f4f4;
+$gray: #dedede;
+$green: #bada55;
+$red: orangered;
+
+.wp-block[data-type="wpw/hero-block"] {
+    color: #fff;
+    margin: 0;
+    max-width: 100% !important;
+    padding: 2rem;
+    background-color: #0A1F43;
+    // border: dashed lightgray 2px;
+
+    .block-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        background-repeat: no-repeat;
+    }
+    
+    .image-upload-placeholder {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .background-image-preview {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .plyr__video-embed {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+    }
+    
+    .plyr__video-embed iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    
+}
